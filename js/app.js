@@ -10,7 +10,7 @@ const state = {
         cuit: '30-71234567-8',
         direccion: 'Av. Libertador 4500, CABA',
         telefono: '+54 9 11 5555-6666',
-        cbu: 'Alias: SACCHI.INSTALACIONES | CBU: 0000003100098765432100',
+       
         logo: ''
     },
     numeroPresupuesto: Math.floor(1000 + Math.random() * 9000)
