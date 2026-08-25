@@ -276,7 +276,7 @@ function generatePDF() {
     const cliente = DOM.cliente.value || 'Cliente';
     const opt = {
         margin: 0,
-        filename: `Presupuesto_Sacchi_${cliente.replace(/\s+/g, '_')}.pdf`,
+        filename: `Presupuesto para ${cliente.replace(/\s+/g, '_')}.pdf`,
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
