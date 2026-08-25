@@ -11,9 +11,8 @@ export const state = {
         direccion: 'Av. Libertador 4500, CABA',
         telefono: '+54 9 11 5555-6666',
         logo: ''
-    },
-    numeroPresupuesto: Math.floor(1000 + Math.random() * 9000)
-};
+    }
+   };
 
 export function savePymeState(data) {
     state.pyme = { ...state.pyme, ...data };
