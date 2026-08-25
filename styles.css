@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+/* Hoja del Presupuesto (Vista Previa y PDF) */
+.invoice-box {
+    background: #ffffff;
+    padding: 40px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Encabezados de tabla estilizados */
+.invoice-table th {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 10px 12px;
+}
+
+.invoice-table td {
+    padding: 12px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.invoice-table tr:nth-child(even) td {
+    background-color: #f8fafc;
+}
+
+dialog::backdrop {
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(2px);
+}
