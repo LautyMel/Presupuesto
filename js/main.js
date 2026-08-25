@@ -11,9 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initForm() {
-    document.getElementById('fecha').valueAsDate = new Date();
-    document.getElementById('prev-numero').innerText = state.numeroPresupuesto;
-    
+    document.getElementById('fecha').valueAsDate = new Date();    
     document.getElementById('cfg-cuit').value = state.pyme.cuit;
     document.getElementById('cfg-direccion').value = state.pyme.direccion;
     document.getElementById('cfg-telefono-pyme').value = state.pyme.telefono;
